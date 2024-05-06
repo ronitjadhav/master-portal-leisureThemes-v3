@@ -17,7 +17,7 @@
   "homepage": "masterportal.maplabs.tech",
   "scripts": {
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist/leisureThemes",
+    "deploy" : "gh-pages -d dist",
     "start": "webpack-dev-server --config devtools/webpack.dev.js",
     "start:ssl": "webpack-dev-server --config devtools/webpack.dev.js --https --cert devtools/certificate/localhost.pem --key devtools/certificate/localhost.key",
     "test": "mochapack --recursive --webpack-config devtools/webpack.test.js --file devtools/setupUnitTests.js \"./src_3_0_0/**/*.spec.js\" \"./addons/addons_3_0_0/*/!(node_modules)/**/*.spec.js\"",
