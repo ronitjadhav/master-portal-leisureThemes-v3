@@ -2,7 +2,7 @@
   {
     "id": "OSM_BASEMAP",
     "name": "OSM Standard Basemap",
-    "url": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
+    "url": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
     "typ": "WMS",
     "layers": "OSM_Standard",
     "format": "image/png",
@@ -26,7 +26,7 @@
   {
     "id": "swimming",
     "name": "Bavaria Swimming Pools",
-    "url": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
+    "url": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
     "typ": "WMS",
     "layers": "bavaria_swimming_pool",
     "format": "image/png",
@@ -52,7 +52,7 @@
   {
     "id": "amusement_park",
     "name": "Bavaria Amusement Park",
-    "url": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
+    "url": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
     "typ": "WMS",
     "layers": "bavaria_amuseent_park",
     "format": "image/png",
@@ -78,7 +78,7 @@
   {
     "id": "ice_skating",
     "name": "Bavaria Ice Skating",
-    "url": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
+    "url": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
     "typ": "WMS",
     "layers": "bavaria_ice_Skating",
     "format": "image/png",
@@ -104,7 +104,7 @@
   {
     "id": "bavaria_open_Air_Museums",
     "name": "Bavaria Open Air Museums",
-    "url": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
+    "url": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
     "typ": "WMS",
     "layers": "bavaria_open_Air_Museums",
     "format": "image/png",
@@ -130,7 +130,7 @@
   {
     "id": "bavaria_zoo",
     "name": "Bavaria Zoo",
-    "url": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
+    "url": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
     "typ": "WMS",
     "layers": "bavaria_zoo",
     "format": "image/png",
@@ -156,7 +156,7 @@
   {
     "id": "bavaria_state",
     "name": "Bavaria State",
-    "url": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
+    "url": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz&SERVICE=WMS&REQUEST=GetCapabilities",
     "typ": "WMS",
     "layers": "bavaria_state",
     "format": "image/png",
@@ -182,13 +182,13 @@
   {
     "id": "wfs_point",
     "name": "wfs_point",
-    "url": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz&SERVICE=WFS&REQUEST=GetCapabilities",
+    "url": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz&SERVICE=WFS&REQUEST=GetCapabilities",
     "typ": "WFS",
     "featureType": "wfs_point",
     "featurePrefix": "wfs_point",
     "format": "image/png",
     "version": "1.1.0",
-    "featureNS": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz",
+    "featureNS": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz",
     "gfiAttributes": "showAll",
     "outputFormat" : "XML",
     "gfiTheme": "default",
@@ -200,12 +200,12 @@
   {
     "id": "wfs_polygon",
     "name": "wfs_polygon",
-    "url": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz&SERVICE=WFS&REQUEST=GetCapabilities",
+    "url": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz&SERVICE=WFS&REQUEST=GetCapabilities",
     "typ": "WFS",
     "featureType": "wfs_polygon",
     "outputFormat": "image/png",
     "version": "1.1.0",
-    "featureNS": "http://localhost/?MAP=/etc/qgisserver/leisureThemes.qgz",
+    "featureNS": "http://ocwsg8s.13.82.237.204.sslip.io/?MAP=/etc/qgisserver/leisureThemesSupabase.qgz",
     "gfiAttributes": "showAll",
     "gfiTheme": "default",
     "layerAttribution":"nicht vorhanden",
